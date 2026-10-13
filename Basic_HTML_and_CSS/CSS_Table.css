@@ -1,0 +1,19 @@
+/*This adds the silver border*/
+table, th, td 
+{
+	border : 1px solid silver;
+}
+td:hover {
+	background-color: Darkblue;
+	color: yellow;
+}
+
+tr, th {
+	backgrund-color: yellow;
+	color: black;
+}
+
+tr, td {
+	background-color:darkgreen:
+	color: white;
+}

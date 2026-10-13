@@ -1,0 +1,11 @@
+ 
+ /* A. Change the list-style of an ordered list */
+ ol {
+	 list-style-type: upper-alpha;
+ }
+ 
+ /* B. Changes the list-style-type of an unordered list */
+ 
+ ul {
+	 list-style-type:square; /* changes standard bullets to square markers */
+ }
