@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Real Estate</title>
+	<!-- Links to CSS file inside css folder -->
+	<link rel="stylesheet" href="css/real_estate.css">
+</head>
+<body>
+
+	<!-- 1. NAVIGATION MENU -->
+	<header>
+		<nav>
+		
+				<a href="#home">HOME</a>
+				<a href="#gallery">GALLERY</a>
+				<a href="#featured">FEATURED</a>
+				<a href="#contact">RESERVATIONS</a>
+			
+		</nav>
+	</header>
+
+	<!-- 2. HOME SECTION -->
+	<section id="home">
+	<div class="card-frame">
+		<h1>Elite Living Real Estate</h1>
+		<!--A. Ultilizing the <em> tag for emphasis-->
+		<p>Connecting <em>property buyers</em> and home sellers.</p>
+		
+		<!--B. Linking to an external document that opens in a new tab-->
+		<p> Check out our partner site: <a href="https://wikipedia.org" target="_blank"> visit  Wikipadia</a></p>
+		</div>
+		
+	</section>
+
+	<!-- 3. VISUAL GALLERY SECTION -->
+	<section id="gallery">
+		<h2 class="section-title">Property Gallery</h2>
+		<div class="gallery-container">
+			<!-- 9 Thumbnail  images in images inside the Thumb folder -->
+			<div class="gallery-item"><img src="images/Thumb/thumbnail_1.jpg" alt="Property 1"></div>
+			<div class="gallery-item"><img src="images/Thumb/thumbnail_2.jpg" alt="Property 2"></div>
+			<div class="gallery-item"><img src="images/Thumb/thumbnail_3.jpg" alt="Property 3"></div>
+			<div class="gallery-item"><img src="images/Thumb/thumbnail_4.jpg" alt="Property 4"></div>
+			<div class="gallery-item"><img src="images/Thumb/thumbnail_5.jpg" alt="Property 5"></div>
+			<div class="gallery-item"><img src="images/Thumb/thumbnail_6.jpg" alt="Property 6"></div>
+			<div class="gallary-item"><img src="images/Thumb/thumbnail_7.jpg" alt="Property 7"></div>
+			<div class="gallary-item"><img src="images/Thumb/thumbnail_8.jpg" alt="Property 8"></div>
+			<div class="gallary-item"><img src="images/Thumb/thumbnail_9.jpg" alt="Property 9"></div>
+			
+	<!--4. Featured Property (HTML tags challenge)--> 
+	<section id="featured">
+	<div class="card-frame"
+	<h2>Featured Property</h2>
+	
+	<!--A. article tag for independent content-->
+	<article>
+	<h2>Luxury Villa in Leeds</h2>
+	
+	<!--D. time tag and datetime attribute content-->
+	<p>Listed on: <time datetime="2026-10-20"October 20,2026</time></p>
+	<p>A Stunning 4-bedroom home featuring modern architecture and a spacious garden.</p>
+	
+	<!--A & B details and summary tag for interactive onformation -->
+	<details>
+	<summary>Click here to view interior details</summary>
+	<ul>
+	<li>3 Modern Bathrooms</li>
+	<li>Fully Equiped Chef's Kitchen</li>
+	<li>Underfloor Heating System</li>
+	</ul>
+	</details>
+	</article>
+	</div>
+	</section>
+
+	<!-- 5. CONTACT FORM SECTION (Matching your course module style precisely) -->
+	<section id="contact">
+	<div class="form-box">
+		<h3>FIND YOUR NEXT HOME</h3>
+		<p><strong>Reserve a viewing consultation today!</strong></p>
+		<p>Please provide us with your basic contact information below.</p>
+
+		<form action="" method="get">
+			<input type="text" placeholder="First_Name" name="First_Name"><br>
+			<input type="text" placeholder="Last_Name"  name="Last_Name"><br>
+			<input type="text" placeholder="Email Address" name="Email"><br>
+			<input type="text" placeholder="Phone Number" name="Phone"><br>
+			<input type="submit" value="Submit Reservation">
+		</form>
+		<p class="form-terms">Terms and Conditions Apply</p>
+		</div>
+	</section>
+	
+	<!--Footer section-->
+	<footer>
+	<p>&copy; 2026 Elite Living Real Estate.All rights reserved.</p>
+	</footer>
+
+</body>
+</html>

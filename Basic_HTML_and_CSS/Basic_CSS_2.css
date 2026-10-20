@@ -6,3 +6,21 @@ p {
 	text-align: left;
 	text-shadow: 2px 2px 4px red;
 }
+
+/* ADD NEW STYLES BELOW 'p' RULE */
+
+section {
+	background-color: lightblue;
+	border: 2px solid black;
+	padding: 15px;
+	margin-top: 20px;
+	border-radius: 8px;
+}
+
+section span {
+	color: red;
+	font-weight: bold;
+	background-color: pink;
+	padding: 2px 6px;
+	border-radius: 4px;
+}
